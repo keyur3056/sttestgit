@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/62310ad3-fe9a-4a96-9612-c7ec81f20cba/resourceGroups/rg-streamlit/providers/Microsoft.Web/sites/hscloud",
+    "appService.deploySubpath": "."
+}
