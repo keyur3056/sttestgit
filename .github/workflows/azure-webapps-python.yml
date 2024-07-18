@@ -1,4 +1,4 @@
-# This workflow will build and push a Python application to an Azure Web App when a commit is pushed to your default branch.
+ # This workflow will build and push a Python application to an Azure Web App when a commit is pushed to your default branch.
 #
 # This workflow assumes you have already created the target Azure App Service web app.
 # For instructions see https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-flask
@@ -20,7 +20,7 @@
 name: Build and deploy Python app to Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: sttestgit  # set this to the name of your Azure Web App
+  AZURE_WEBAPP_NAME: wa-streamlit-wtd  # set this to the name of your Azure Web App
   PYTHON_VERSION: '3.8'              # set this to the Python version to use
 
 on:
